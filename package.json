@@ -1,6 +1,6 @@
 {
   "name": "@databridges/apifront-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "APIFront proxy client for dataBridges ecosystem - Node.js implementation",
   "keywords": [
     "optomate",
