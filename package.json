@@ -1,0 +1,48 @@
+{
+  "name": "@databridges/apifront-proxy",
+  "version": "1.0.0",
+  "description": "APIFront proxy client for dataBridges ecosystem - Node.js implementation",
+  "keywords": [
+    "optomate",
+    "databridges",
+    "apifront",
+    "api",
+    "authentication"
+    "realtime",
+    "real-time"
+  ],
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "Dependencies.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "author": {
+    "name": "Optomate Technologies Private Limited.",
+    "email": "tech@optomate.io",
+    "url": "https://www.optomate.io"
+  },
+  "main": "src/apifront_proxy.js",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/databridges-io/lib.js.node.apifront.proxy.git"
+  },
+  "homepage": "https://github.com/databridges-io/lib.js.node.apifront.proxy",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "dependencies": {
+    "databridges-sio-client-lib": "^2.0.4",
+    "databridges-sio-server-lib": "^2.0.4",
+    "delay": "^5.0.0",
+    "nanoid": "^3.1.23"
+  }
+}
